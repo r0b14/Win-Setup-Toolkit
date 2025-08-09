@@ -1,7 +1,9 @@
 @echo off
 :: setup_all_v2_3.cmd
-:: Corrige erro de "CALL :label outside script".
-:: Uso de função :log com CALL. Office antes do Windows Update.
+:: LEGADO: Correção de erro "CALL :label outside script" - Use setup_all_v3.cmd
+:: Instala aplicativos essenciais, Office antes do Windows Update
+:: Versão intermediária com melhorias de logging
+:: Execute COMO ADMINISTRADOR.
 
 setlocal EnableDelayedExpansion
 set "LOG=%~dp0setup_all_v2_3.log"

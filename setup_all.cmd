@@ -1,7 +1,9 @@
 @echo off
 :: setup_all.cmd
+:: LEGADO: Primeira versão do script de instalação - Use setup_all_v3.cmd
 :: Instala aplicativos via winget (7zip, Git, Java, Chrome, VSCode, Office),
 :: habilita RSAT Active Directory e realiza Windows Update/drivers.
+:: Versão básica sem logging avançado
 :: Execute COMO ADMINISTRADOR.
 
 net session >nul 2>&1

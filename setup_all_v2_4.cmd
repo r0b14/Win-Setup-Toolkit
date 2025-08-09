@@ -1,6 +1,9 @@
 @echo off
 :: setup_all_v2_4.cmd
 :: v2.4 – inclui Passo 6 para instalar/atualizar o PowerShell 7.x (Core).
+:: LEGADO: Use setup_all_v3.cmd para a versão mais recente
+:: Instala aplicativos essenciais, habilita RSAT, executa Windows Update e PowerShell 7
+:: Execute COMO ADMINISTRADOR.
 
 setlocal EnableDelayedExpansion
 set "LOG=%~dp0setup_all_v2_4.log"

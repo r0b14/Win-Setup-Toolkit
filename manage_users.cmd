@@ -1,7 +1,9 @@
 @echo off
 :: manage_users.cmd
-:: Remove contas locais, elevar usuário atual e criar 'Curso Fênix' com os
-:: mesmos grupos (apenas locais). Execute COMO ADMINISTRADOR.
+:: LEGADO: Versão básica do gerenciamento de usuários - Use manage_users_v2.cmd
+:: Remove contas locais, eleva usuário atual e cria 'Curso Fênix' com os
+:: mesmos grupos (apenas locais). Versão simplificada sem recursos avançados.
+:: Execute COMO ADMINISTRADOR.
 
 :: Verifica privilégio
 net session >nul 2>&1
